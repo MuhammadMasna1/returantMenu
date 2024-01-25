@@ -23,11 +23,13 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-blend-mode:darken;
+  opacity: 2;
   z-index: -1;
 }
 
 :root {
-  --main-color1: rgb(216, 0, 50);
+  --main-color1: orange;);
 }
 
 a {
